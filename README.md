@@ -82,7 +82,7 @@ python -m uvicorn backend.main:app --reload
 ## Example
 ![Screenshot from 2025-02-24 22-19-38](https://github.com/user-attachments/assets/b9f06010-8a17-455c-aba9-01836e551885)
 
-9. Open [[http://123.0.0.1:8000](http://127.0.0.1:8000/)] in your local browser for backend.
+9. Open [[http://127.0.0.1:8000](http://127.0.0.1:8000/)] in your local browser for backend.
 
 10. If you want to see all the api's open swagger
 ```bash
