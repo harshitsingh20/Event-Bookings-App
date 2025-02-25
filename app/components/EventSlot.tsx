@@ -13,7 +13,7 @@ interface EventSlotProps {
 const EventSlot: React.FC<EventSlotProps> = ({ slot, currentUser, bookTimeSlot, cancelBooking }) => {
   const isBooked = slot.user_id !== null
   const isBookedByCurrentUser = isBooked && currentUser && slot.user_id === currentUser.id
-console.log(slot, currentUser)
+// console.log(slot, currentUser)
   const handleClick = () => {
     if (isBookedByCurrentUser) {
       cancelBooking(slot.id)

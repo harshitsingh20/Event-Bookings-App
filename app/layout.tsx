@@ -17,5 +17,5 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 import './globals.css'
 
 export const metadata = {
-      generator: 'v0.dev'
+      generator: 'dev'
     };

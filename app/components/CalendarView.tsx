@@ -29,7 +29,7 @@ const CalendarView: React.FC<CalendarViewProps> = ({ timeSlots, currentUser, boo
       currentUser?.preferences && currentUser?.preferences.includes(slot.category)
     return isInCurrentWeek && matchesCategory && matchesUserPreferences
   })
-  console.log(currentUser?.preferences)
+  // console.log(currentUser?.preferences)
 
   const handlePrevWeek = () => setCurrentDate(subWeeks(currentDate, 1))
   const handleNextWeek = () => setCurrentDate(addWeeks(currentDate, 1))
